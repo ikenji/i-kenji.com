@@ -1,3 +1,92 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+## Basic Configuration
+
+# baseurl = "https://i-kenji.com"
+# baseurl = "http://localhost:1313"
+baseurl = "https://ikenji.github.io/i-kenji.com"
+
+builddrafts = false
+canonifyurls = true
+languageCode = "ja"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Kenji Ichihashi"
+title = "i-kenji.com"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "UA-131363161-1"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Kenji Ichihashi"
+intro = "Software Developer"
+description = "Hi! I'm Kenji Ichihashi a.k.a. @ikenji."
+authorimage = "ikenji.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = ""
+keywords = ""
+
+## Social Accounts
+[params.social]
+github = "ikenji"
+instagram = "kenji_pub"
+# xing = "<username>"
+linkedin = "kenji-ichihashi-403a49121"
+twitter = "ikenji_tw"
+facebook = "ichiha4"
+# google = "<username>"
+# stackoverflow = "<username>" # lastfm = "<username>" # goodreads = "<username>"
+# gitlab = "<username>"
+# bitbucket = "<username>"
+# fivehundredpx = "<username>"
+# flickr = "<username>"
+# foursquare = "<username>"
+# hackernews = "<username>"
+# kickstarter = "<username>"
+# patreon = "<username>"
+# pintrest = "<username>"
+# steam = "<username>"
+# reddit = "<username>"
+# snapchat = "<username>"
+# youtube = "<username>"
+# keybase = "<username>"
+# twitch = "<username>"
+# soundcloud = "<username>"
+# tumblr = "<username>"
+# skype = "<username>"
+# telegram = "<username>"
+# whatsapp = "<username>"
+email = "i13typem@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Kenji Ichihashi."
+poweredby = false
+highlightjs = false
+socialmarkup = false
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+# [[menu.main]]
+#     name = "about"
+#     identifier = "about"
+#     weight = 200
+#     url = "/about/"
+# [[menu.main]]
+#     name = "coderag"
+#     identifier = "coderag"
+#     weight = 300
+#     url = "/coderag/"

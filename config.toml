@@ -38,11 +38,11 @@ keywords = ""
 ## Social Accounts
 [params.social]
 github = "ikenji"
-instagram = "kenji_pub"
+# instagram = "kenji_pub"
 # xing = "<username>"
-linkedin = "kenji-ichihashi-403a49121"
+# linkedin = "kenji-ichihashi-403a49121"
 twitter = "ikenji_tw"
-facebook = "ichiha4"
+# facebook = "ichiha4"
 # google = "<username>"
 # stackoverflow = "<username>" # lastfm = "<username>" # goodreads = "<username>"
 # gitlab = "<username>"
@@ -66,6 +66,7 @@ facebook = "ichiha4"
 # telegram = "<username>"
 # whatsapp = "<username>"
 email = "i13typem@gmail.com"
+qiita = "ikenji"
 
 ## Extras
 [params.extra]
@@ -80,6 +81,11 @@ socialmarkup = false
     weight = 100
     identifier = "blog"
     url = "/blog/"
+[[menu.main]]
+    name = "contact"
+    weight = 100
+    identifier = "contact"
+    url = "/contact/"
 # [[menu.main]]
 #     name = "about"
 #     identifier = "about"
